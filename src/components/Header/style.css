@@ -3,3 +3,13 @@
     background: black;
 }
 
+.signUp {
+    padding-left: 2px;
+    background: red;
+}
+
+.logo {
+    color: red;
+    margin-top: .4rem;
+    margin-left: 2rem;
+}

@@ -20,10 +20,13 @@ class Header extends Component {
 	render() {
 		return (
 			<Row className="headerTesting">
-				<Col sm={8}>Test</Col>
-				<Col sm={4}>
+				<Col sm={9} className="logo">PREPAIRED</Col>
+				<Col sm={2}>
 					<Button onClick={this.toggleHidden} className="logIn">
 						{this.state.isHidden ? "Log In" : "Logoff"}
+					</Button>
+					<Button className="signUp">
+						Sign Up
 					</Button>
 				</Col>
 			</Row>
