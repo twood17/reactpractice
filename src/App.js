@@ -1,17 +1,18 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header'
-import Footer from './components/Footer'
-
+import Container from 'react-bootstrap/Container';
+import Footer from './components/Footer';
+import JumboHome from './components/JumboHome';
+import Navbar from './components/Navbar'
 
 class App extends Component {
-
 	render() {
 		return (
-			<div>
-				<Header />
+			<>
+				<Navbar />
+				<JumboHome />
 				<Footer />
-      		</div>
+			</>
 		);
 	}
 }
